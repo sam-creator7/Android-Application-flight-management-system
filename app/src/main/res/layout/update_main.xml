@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/back2"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Flight Details"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_blue_light"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Details will be updated to the given flight number"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="17dp"
+        />
+
+    <EditText
+        android:id="@+id/edtflight_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="8"
+        android:background="@drawable/round2"
+        android:textSize="28sp"
+        android:layout_marginTop="20dp"
+        android:hint="Flight Number"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter new values to update"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:textSize="18dp"
+            />
+    <EditText
+        android:id="@+id/edtflight_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="8"
+        android:background="@drawable/round2"
+        android:textSize="28sp"
+        android:layout_marginTop="20dp"
+        android:hint="Flight Name"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        />
+    <EditText
+        android:id="@+id/edtflight_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="8"
+        android:background="@drawable/round2"
+        android:textSize="28sp"
+        android:layout_marginTop="40dp"
+        android:hint="Flight Source"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        />
+    <EditText
+        android:id="@+id/edtflight_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="8"
+        android:background="@drawable/round2"
+        android:textSize="28sp"
+        android:layout_marginTop="40dp"
+        android:hint="Flight Destination"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        />
+    <EditText
+        android:id="@+id/edtflight_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="8"
+        android:background="@drawable/round2"
+        android:textSize="28sp"
+        android:layout_marginTop="40dp"
+        android:hint="Flight Date"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        />
+    <EditText
+        android:id="@+id/edtflight_travellers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="8"
+        android:background="@drawable/round2"
+        android:textSize="28sp"
+        android:layout_marginTop="40dp"
+        android:hint="Availablility"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:inputType="number"
+        android:textColor="@android:color/black"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round"
+        android:text="Update"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/btnupdateflights"
+        />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/back2"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Details to Add Flights"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_blue_light"
+        />
+    <EditText
+        android:id="@+id/edtflightname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="8"
+        android:background="@drawable/round2"
+        android:textSize="28sp"
+        android:layout_marginTop="40dp"
+        android:hint="Flight Name"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        />
+    <EditText
+        android:id="@+id/edtflightno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="8"
+        android:background="@drawable/round2"
+        android:textSize="28sp"
+        android:layout_marginTop="40dp"
+        android:hint="Flight Number"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        />
+    <EditText
+        android:id="@+id/edtflightfrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="8"
+        android:background="@drawable/round2"
+        android:textSize="28sp"
+        android:layout_marginTop="40dp"
+        android:hint="Flight Source"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        />
+    <EditText
+        android:id="@+id/edtflightto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="8"
+        android:background="@drawable/round2"
+        android:textSize="28sp"
+        android:layout_marginTop="40dp"
+        android:hint="Flight Destination"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        />
+    <EditText
+        android:id="@+id/edtflightdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="8"
+        android:background="@drawable/round2"
+        android:textSize="28sp"
+        android:layout_marginTop="40dp"
+        android:hint="Flight Date"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        />
+    <EditText
+        android:id="@+id/edtflighttravellers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="8"
+        android:background="@drawable/round2"
+        android:textSize="28sp"
+        android:layout_marginTop="40dp"
+        android:hint="Availablility"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:inputType="number"
+        android:textColor="@android:color/black"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round"
+        android:text="Add"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/btnaddflights"
+        />
+
+
+</LinearLayout>
+</ScrollView>
